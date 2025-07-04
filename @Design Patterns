@@ -1,0 +1,39 @@
+===============
+Design Patterns
+===============
+
+1. Singleton Pattern:
+Zweck: Sicherstellen, dass eine Klasse nur eine Instanz hat und einen globalen Zugriffspunkt auf diese Instanz bietet.
+Verwendung: Nützlich für Objekte, die global zugänglich sein müssen, wie z.B. Konfigurationsmanager oder Logging-Klassen.
+
+2. Observer Pattern:
+Zweck: Definiert eine Eins-zu-Viele-Abhängigkeit zwischen Objekten, so dass, wenn sich der Zustand eines Objekts ändert, alle abhängigen Objekte benachrichtigt und automatisch aktualisiert werden.
+Verwendung: Wird oft in Event-Handling-Systemen verwendet.
+
+3. Decorator Pattern:
+Zweck: Fügt einem Objekt dynamisch neue Verantwortlichkeiten hinzu, ohne seine Klasse zu ändern.
+Verwendung: Nützlich, um Funktionalität zu erweitern, ohne Unterklassen zu erstellen.
+
+4. Strategy Pattern:
+Zweck: Definiert eine Familie von Algorithmen, kapselt jeden einzelnen und macht sie austauschbar. Der Algorithmus kann zur Laufzeit ausgewählt werden.
+Verwendung: Nützlich, wenn verschiedene Varianten eines Algorithmus benötigt werden und zwischen ihnen umgeschaltet werden soll.
+
+5. Adapter Pattern:
+Zweck: Wandelt die Schnittstelle einer Klasse in eine andere Schnittstelle um, die die Clients erwarten. Lässt Klassen zusammenarbeiten, die sonst nicht zusammenarbeiten könnten.
+Verwendung: Nützlich, um inkompatible Schnittstellen zu integrieren.
+
+6. Facade Pattern:
+Zweck: Bietet eine vereinfachte Schnittstelle zu einem komplexen Subsystem.
+Verwendung: Nützlich, um die Komplexität eines Systems zu verbergen und eine einfache Schnittstelle bereitzustellen.
+
+7. Factory Pattern:
+Zweck: Definiert eine Schnittstelle zur Erstellung von Objekten, wobei die konkrete Klasse der zu erstellenden Objekte von Unterklassen entschieden wird.
+Verwendung: Nützlich, wenn eine Methode verschiedene Arten von Objekten erstellen muss und die konkrete Klasse der Objekte nicht im Voraus bekannt ist.
+
+8. Builder Pattern:
+Zweck: Trennt die Konstruktion eines komplexen Objekts von seiner Darstellung, so dass derselbe Konstruktionsprozess verschiedene Darstellungen erstellen kann.
+Verwendung: Nützlich, wenn ein Objekt in mehreren Schritten erstellt werden muss.
+
+9. Data Access Object Pattern (DAO):
+Zweck: Abstrahiert und kapselt den Zugriff auf eine Datenquelle, um die Datenzugriffslogik von der Geschäftslogik zu trennen.
+Verwendung: Nützlich für Datenbankoperationen, um die Komplexität des Datenzugriffs zu verbergen und die Wartbarkeit zu verbessern.
