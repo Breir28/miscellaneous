@@ -1,12 +1,12 @@
 CLASS lcl_konto DEFINITION.
-  PRIVATE SECTION.
-    DATA: mv_saldo TYPE i.
-
   PUBLIC SECTION.
     METHODS: constructor,
-             einzahlen     IMPORTING iv_betrag TYPE i RETURNING VALUE(rv_success) TYPE abap_bool,
-             auszahlen     IMPORTING iv_betrag TYPE i RETURNING VALUE(rv_success) TYPE abap_bool,
+             einzahlen IMPORTING iv_betrag TYPE i RETURNING VALUE(rv_success) TYPE abap_bool,
+             auszahlen IMPORTING iv_betrag TYPE i RETURNING VALUE(rv_success) TYPE abap_bool,
              saldo_anzeigen RETURNING VALUE(rv_saldo) TYPE i.
+
+  PRIVATE SECTION.
+    DATA: mv_saldo TYPE i.
 ENDCLASS.
 
 CLASS lcl_konto IMPLEMENTATION.
