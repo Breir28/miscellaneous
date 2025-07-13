@@ -1,4 +1,4 @@
-CLASS lcl_fahrzeug DEFINITION ABSTRACT.
+CLASS lcl_fahrzeug DEFINITION ABSTRACT. " Abstrakte Klasse
   PUBLIC SECTION.
     METHODS:
       starten ABSTRACT,                " Abstrakte Methode
