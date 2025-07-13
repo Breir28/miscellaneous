@@ -5,7 +5,7 @@ CLASS lcl_fahrzeug DEFINITION ABSTRACT. " Abstrakte Klasse
       fahren.
 ENDCLASS.
 
-CLASS lcl_fahrzeug IMPLEMENTATION.
+CLASS lcl_fahrzeug IMPLEMENTATION.     " normale Methode
   METHOD fahren.
     WRITE: / 'Auto fährt los...'.
   ENDMETHOD.
