@@ -37,3 +37,8 @@ class Database(DataSource):
 class API(DataSource):
     def get_data(self):
         return "Data from the API"    
+
+
+if __name__ == '__main__':
+    fe = FrontEnd(Database())
+    fe.display_data()
