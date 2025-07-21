@@ -1,0 +1,16 @@
+SOLID
+
+Single Responsibility Principle (SRP):
+Jede Klasse soll nur eine einzige Verantwortung haben, z. B. Berechnungen, Darstellung oder Datenhaltung sollten getrennt sein.
+
+Open/Closed Principle (OCP):
+Software soll erweiterbar sein, ohne bestehende Komponenten ändern zu müssen, z. B. durch Nutzung von Vererbung oder Schnittstellen.
+
+Liskov Substitution Principle (LSP):
+Objekte einer Basisklasse sollen durch Objekte ihrer Subklassen ersetzt werden können, ohne dass das Verhalten unerwartet wird.
+
+Interface Segregation Principle (ISP):
+Schnittstellen sollen schlank sein; Klassen sollen nur Methoden bereitstellen, die von ihren Nutzern auch tatsächlich gebraucht werden.
+
+Dependency Inversion Principle (DIP):
+Abhängigkeiten sollen über Abstraktionen (z. B. Interfaces) erfolgen, nicht direkt zwischen konkreten Klassen, um Flexibilität und Testbarkeit zu verbessern.
